@@ -9,5 +9,7 @@ $rconTimeout = 3;
 $queryPort = 25565;
 
 //Page Settings
-$pageLogo = "MCRcon";
+$pageLogo = "MC Rcon";
+$pageNavbarColor = "orange";
+$pageFooterColor = "orange";
 ?>
