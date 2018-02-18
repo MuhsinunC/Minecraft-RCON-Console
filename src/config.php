@@ -1,5 +1,7 @@
 <?php
-$rconHost = "localhost";
+$rconHost = "some.minecraftserver.com";
 $rconPort = 25575;
-$rconPassword = "rconpassword";
+$rconPassword = "server-rcon-password";
+$rconTimeout = 3;
+$queryPort = 25565;
 ?>
