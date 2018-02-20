@@ -47,26 +47,49 @@ if ($rcon->isConnected()) {
           <!--This is the main body-->
           <div class="col s12">
             <div class="col s4">
-              <div class="card-panel green"> <!--Make the colors change based on current values-->
+              <div class="card-panel hoverable green"> <!--Make the colors change based on current values-->
                 <span class="card-title">Server Status</span><br>
                 <span class="white-text">Online</span>
               </div>
             </div>
             <div class="col s4">
-              <div class="card-panel green">
+              <div class="card-panel hoverable green">
                 <span class="card-title">Current Players</span><br>
                 <span class="white-text">12/1000</span> <!--Make this number live-->
               </div>
             </div>
             <div class="col s4">
-              <div class="card-panel green">
+              <div class="card-panel hoverable green">
                 <span class="card-title">Server Version</span><br>
                 <span class="white-text">1.12.2</span>
               </div>
             </div>
           </div>
           <div class="col s12">
-            Console
+            <div class="card hoverable <?php echo $pageConsoleColor; ?>">
+              <div class="card-content white-text">
+                <span class="card-title">Console</span>
+                <table class="striped responsive">
+                  <tbody>
+                    <tr>
+                      <td>say Hi</td>
+                    </tr>
+                    <tr>
+                      <td>Said Hi</td>
+                    </tr>
+                    <tr>
+                      <td>Hallo thar fwend</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Command</label>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
       <div class="row">
@@ -75,7 +98,7 @@ if ($rcon->isConnected()) {
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text"><?php echo $pageLogo; ?></h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <p class="grey-text text-lighten-4">Made with ❤️ by Muhsinun C.</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
